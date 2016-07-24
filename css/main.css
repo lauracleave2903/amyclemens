@@ -1,30 +1,31 @@
-/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+@import url(https://fonts.googleapis.com/css?family=Neuton:400,200,300,400italic,700,800|Oswald);
+@import url('https://cdn.jsdelivr.net/font-zero-width/latest/zero-width.css');
+
+/*! HTML5 BOILERPLATE v5.3.0 | MIT LICENSE | https://html5boilerplate.com/ */
 
 
 /*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
+ * WHAT FOLLOWS IS THE RESULT OF MUCH RESEARCH ON CROSS-BROWSER STYLING. CREDIT LEFT INLINE AND BIG THANKS TO NICOLAS GALLAGHER, JONATHAN NEAL, KROC CAMEN, AND THE H5BP DEV COMMUNITY AND TEAM
  */
 
 
 /* ==========================================================================
-   Base styles: opinionated defaults
+   BASE STYLES: OPINIONATED DEFAULTS
    ========================================================================== */
 
 html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+    font-family: 'Neuton', serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
 }
 
 
 /*
- * Remove text-shadow in selection highlight:
+ * REMOVE TEXT-SHADOW IN SELECTION HIGHLIGHT
  * https://twitter.com/miketaylr/status/12228805301
  *
- * These selection rule sets have to be separate.
- * Customize the background color to match your design.
+ * TTHESE SELECTION RULE SETS HAVE TO BE SEPARATE. CUSTOMIZE THE BACKGROUND COLOR TO MATCH YOUR DESIGN
  */
 
 ::-moz-selection {
@@ -39,7 +40,7 @@ html {
 
 
 /*
- * A better looking default horizontal rule
+ * A BETTER LOOKING DEFAULT HORIZONTAL RULE
  */
 
 hr {
@@ -53,8 +54,7 @@ hr {
 
 
 /*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
+ * REMOVE THE GAP BETWEEN AUDIO, CANVAS, IFRAMES, IMAGES, VIDEOS AND THE BOTTOM OF THEIR CONTAINERS
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
 
@@ -69,7 +69,7 @@ video {
 
 
 /*
- * Remove default fieldset styles.
+ * REMOVE DEFAULT FIELDSET STYLES
  */
 
 fieldset {
@@ -80,7 +80,7 @@ fieldset {
 
 
 /*
- * Allow only vertical resizing of textareas.
+ * ALLOW ONLY VERTICAL RESIZING OF TEXTAREAS
  */
 
 textarea {
@@ -89,7 +89,7 @@ textarea {
 
 
 /* ==========================================================================
-   Browser Upgrade Prompt
+   BROWSER UPGRADE PROMPT
    ========================================================================== */
 
 .browserupgrade {
@@ -101,12 +101,26 @@ textarea {
 
 
 /* ==========================================================================
-   Author's custom styles
+   AUTHOR'S CUSTOM STYLES
+   ========================================================================== */
+
+
+/* ==========================================================================
+   HELPER CLASSES
    ========================================================================== */
 
 
 /*
- * Apply a natural box layout model to all elements, but allowing components to change
+ * https://github.com/patrickkunka/zero-width
+ */
+
+body {
+    margin: 0;
+}
+
+
+/*
+ * APPLY A NATURAL BOX LAYOUT MODEL TO ALL ELEMENTS, BUT ALLOWING COMPONENTS TO CHANGE
  */
 
 html {
@@ -120,13 +134,8 @@ html {
 }
 
 
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-
 /*
- * Hide visually and from screen readers
+ * HIDE VISUALLY AND FROM SCREEN READERS
  */
 
 .hidden {
@@ -135,7 +144,7 @@ html {
 
 
 /*
- * Hide only visually, but have it available for screen readers:
+ * HIDE ONLY VISUALLY, BUT HAVE IT AVAILABLE FOR SCREEN READERS
  * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  */
 
@@ -152,8 +161,7 @@ html {
 
 
 /*
- * Extends the .visuallyhidden class to allow the element
- * to be focusable when navigated to via the keyboard:
+ * EXTENDS THE .visuallyhidden CLASS TO ALLOW THE ELEMENT TO BE FOCUSABLE WHEN NAVIGATED TO VIA THE KEYBOARD
  * https://www.drupal.org/node/897638
  */
 
@@ -169,7 +177,7 @@ html {
 
 
 /*
- * Hide visually and from screen readers, but maintain layout
+ * HIDE VISUALLY AND FROM SCREEN READERS, BUT MAINTAIN LAYOUT
  */
 
 .invisible {
@@ -178,15 +186,11 @@ html {
 
 
 /*
- * Clearfix: contain floats
+ * CLEARFIX: CONTAIN FLOATS
  *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
+ * FOR MODERN BROWSERS
+ * 1. THE SPACE CONTENT IS ONE WAY TO AVOID AN OPERA BUG WHEN THE `CONTENTEDITABLE` ATTRIBUTE IS INCLUDED ANYWHERE ELSE IN THE DOCUMENT OTHERWISE IT CAUSES SPACE TO APPEAR AT THE TOP AND BOTTOM OF ELEMENTS THAT RECEIVE THE `CLEARFIX` CLASS
+ * 2. THE USE OF `TABLE` RATHER THAN `BLOCK` IS ONLY NECESSARY IF USING `:BEFORE` TO CONTAIN THE TOP-MARGINS OF CHILD ELEMENTS
  */
 
 .clearfix:before,
@@ -203,9 +207,9 @@ html {
 
 
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
+   EXAMPLE MEDIA QUERIES FOR RESPONSIVE DESIGN
+   THESE EXAMPLES OVERRIDE THE PRIMARY (‘MOBILE FIRST’) STYLES
+   MODIFY AS CONTENT REQUIRES
    ========================================================================== */
 
 @media only screen and (min-width: 35em) {
@@ -221,8 +225,8 @@ html {
 
 
 /* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
+   PRINT STYLES
+   INLINED TO AVOID THE ADDITIONAL HTTP REQUEST
    http://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
