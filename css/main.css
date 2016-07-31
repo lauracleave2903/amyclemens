@@ -17,6 +17,7 @@ html {
     font-family: 'Neuton', serif;
     font-weight: 300;
     font-size: 18px;
+    text-align: center;
     color: #000000;
 }
 
@@ -103,6 +104,23 @@ textarea {
 /* ==========================================================================
    AUTHOR'S CUSTOM STYLES
    ========================================================================== */
+
+
+/*
+ * HEADER
+ */
+
+.cover {
+    background: url(../img/header_hero.png) no-repeat center top;
+    background-size: cover;
+    background-color: #000000;
+    height: 98%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -999;
+}
 
 
 /* ==========================================================================
