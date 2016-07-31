@@ -16,9 +16,9 @@
 html {
     font-family: 'Neuton', serif;
     font-weight: 300;
-    font-size: 18px;
-    text-align: center;
+    font-size: 20px;
     color: #000000;
+    text-align: center;
 }
 
 
@@ -113,12 +113,59 @@ textarea {
 header {
     position: relative;
     z-index: 999;
+}
+
+.headerWrapper {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.75);
+    position: fixed;
+}
+
+.headerWrapperInside {
+    max-width: 960px;
+    margin: 0 auto;
     padding-top: 25px;
+    padding-bottom: 35px;
 }
 
 .logo {
-    text-align: left;
-    padding-left: 10px;
+    float: left;
+    margin-left: 10px;
+}
+
+
+/*
+ * HEADER NAV
+ */
+
+.navWrapper {
+    padding-top: 5px;
+}
+
+nav ul {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    font-family: 'Oswald', 'Arial', sans-serif;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    border-bottom: solid 2px;
+    color: #000000;
+    text-align: right;
+    transition: all ease-in 0.20s;
+}
+
+nav ul li a:hover {
+    border-bottom: solid 2px transparent;
 }
 
 
@@ -137,20 +184,201 @@ header {
     z-index: -999;
 }
 
+.downArrow {
+    width: 100%;
+    position: absolute;
+    bottom: 25px;
+    text-align: center;
+}
+
+.downArrowNudge:hover {
+    animation: arrowDownNudge 0.5s linear alternate;
+}
+
+@keyframes arrowDownNudge {
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(0, -25px);
+    }
+}
+
+
+/*
+ * BODY
+ */
+
+.container {
+    width: 100%;
+    position: absolute;
+    top: 98%;
+}
+
+.container2 {
+    padding-top: 95px;
+}
+
 
 /*
  * MAIN
  */
 
-body {
-    width: 100%;
+
+/*
+ * ABOUT
+ */
+
+#about,
+#shop {
+    background-color: #FDE5E0;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.container {
-    max-width: 960px;
-    position: absolute;
-    top: 98%;
-    text-align: center;
+h2 {
+    font-family: 'Oswald', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#about p,
+#shop p,
+#faq p,
+#contact p,
+footer p {
+    max-width: 780px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+
+/*
+ * WORK
+ */
+
+#work,
+#faq,
+#contact {
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.imgFade {
+    opacity: 1.0;
+}
+
+.imgFade:hover {
+    opacity: 0.25;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+}
+
+.rightArrow {
+    margin-left: 10px;
+}
+
+.rightArrow:hover {
+    animation: rightArrowNudge 0.5s linear alternate;
+}
+
+@keyframes rightArrowNudge {
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(15px, 0);
+    }
+}
+
+
+/*
+ * WORK PAGES
+ */
+
+.leftArrow {
+    margin-right: 10px;
+}
+
+.leftArrow:hover {
+    animation: leftArrowNudge 0.5s linear alternate;
+}
+
+@keyframes leftArrowNudge {
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(-15px, 0);
+    }
+}
+
+
+/*
+ * SHOP
+ */
+
+.shopWrapper img {
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+
+.shopWrapper img[src*="shop_hero_3"] {
+    margin-right: 0;
+}
+
+#shop a,
+#contact a,
+#navBottom a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/*
+ * FAQ
+ */
+
+#faq p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+/*
+ * CONTACT
+ */
+
+.socialMedia img {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.socialMedia img[src*="twitter"] {
+    margin-right: 0;
+}
+
+
+/*
+ * FOOTER
+ */
+
+footer {
+    background-color: #dad8d6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer p {
+    font-size: 0.8rem;
+    margin-bottom: 0;
 }
 
 
