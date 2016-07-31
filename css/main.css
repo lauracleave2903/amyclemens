@@ -124,8 +124,8 @@ header {
 .headerWrapperInside {
     max-width: 960px;
     margin: 0 auto;
-    padding-top: 25px;
-    padding-bottom: 35px;
+    padding-top: 10px;
+    padding-bottom: 25px;
 }
 
 .logo {
@@ -151,6 +151,7 @@ nav ul {
 nav ul li {
     display: inline;
     font-family: 'Oswald', 'Arial', sans-serif;
+    font-size: 0.9rem;
     letter-spacing: 0.15rem;
     text-transform: uppercase;
     margin-left: 20px;
@@ -265,13 +266,13 @@ footer p {
 #work,
 #faq,
 #contact {
-    background-color: #ffffff;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
 #work {
     padding-top: 75px;
+    padding-bottom: 0;
 }
 
 #work a img {
@@ -283,9 +284,18 @@ footer p {
 .workWrapper3 {
     max-width: 960px;
     margin: 0 auto;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 90px;
+    padding-right: 90px;
 }
+
+.workWrapper2 {
+    padding-right: 60px;
+}
+
+
+/*
+ * WORK FLOATS
+ */
 
 .workWrapper1_img,
 .workWrapper2_text,
@@ -299,13 +309,51 @@ footer p {
     float: right;
 }
 
+.workWrapper2_img {
+    background-color: #ffffff;
+}
+
 .workWrapper2,
 .workWrapper3 {
     clear: both;
 }
 
-.workWrapper3 img[src*="typography_hero"] {
-    margin-bottom: 100px;
+
+/*
+*.workWrapper3 img[src*="typography_hero"] {
+    margin-bottom: 50px;
+}
+*/
+
+
+/*
+ * WORK POSITIONING
+ */
+
+.workWrapper1_text {
+    padding-top: 175px;
+}
+
+.workWrapper2_text {
+    padding-top: 260px;
+    padding-left: 140px;
+}
+
+.workWrapper3_text {
+    padding-top: 100px;
+    padding-right: 60px;
+}
+
+.workWrapper2 {
+    transform: translateY(-100px);
+    position: relative;
+    z-index: 999;
+}
+
+.workWrapper3 {
+    transform: translateY(-120px);
+    position: relative;
+    z-index: -999;
 }
 
 
@@ -378,7 +426,7 @@ footer p {
 .nextProject {
     text-align: right;
     float: right;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 
@@ -391,6 +439,7 @@ footer p {
 }
 
 .shopWrapper img {
+    margin-top: 20px;
     margin-right: 20px;
     margin-bottom: 25px;
 }
