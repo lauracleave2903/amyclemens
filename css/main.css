@@ -116,6 +116,11 @@ header {
     padding-top: 25px;
 }
 
+.logo {
+    text-align: left;
+    padding-left: 10px;
+}
+
 
 /*
  * COVER
@@ -137,8 +142,12 @@ header {
  * MAIN
  */
 
-.container {
+body {
     width: 100%;
+}
+
+.container {
+    max-width: 960px;
     position: absolute;
     top: 98%;
 }
