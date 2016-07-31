@@ -112,7 +112,6 @@ textarea {
 
 .cover {
     background: url(../img/header_hero.png) no-repeat center top;
-    background-size: cover;
     background-color: #000000;
     height: 98%;
     position: absolute;
