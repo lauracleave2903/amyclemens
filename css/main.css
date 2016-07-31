@@ -243,6 +243,7 @@ h2 {
     font-size: 1.5rem;
     letter-spacing: 0.3rem;
     text-transform: uppercase;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
@@ -268,6 +269,49 @@ footer p {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+#work {
+    padding-top: 75px;
+}
+
+#work a img {
+    margin-left: 0;
+}
+
+.workWrapper1,
+.workWrapper2,
+.workWrapper3 {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.workWrapper1_img,
+.workWrapper2_text,
+.workWrapper3_img {
+    float: left;
+}
+
+.workWrapper1_text,
+.workWrapper2_img,
+.workWrapper3_text {
+    float: right;
+}
+
+.workWrapper2,
+.workWrapper3 {
+    clear: both;
+}
+
+.workWrapper3 img[src*="typography_hero"] {
+    margin-bottom: 100px;
+}
+
+
+/*
+ * WORK ANIMATION
+ */
 
 .imgFade {
     opacity: 1.0;
@@ -320,10 +364,31 @@ footer p {
     }
 }
 
+#navBottom {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.previousProject {
+    text-align: left;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.nextProject {
+    text-align: right;
+    float: right;
+    margin-bottom: 50px;
+}
+
 
 /*
  * SHOP
  */
+
+#shop {
+    clear: both;
+}
 
 .shopWrapper img {
     margin-right: 20px;
@@ -356,9 +421,14 @@ footer p {
  * CONTACT
  */
 
+#contact {
+    border-top: 1px solid #dad8d6;
+}
+
 .socialMedia img {
     margin-top: 20px;
     margin-right: 20px;
+    margin-bottom: 50px;
 }
 
 .socialMedia img[src*="twitter"] {
@@ -371,6 +441,7 @@ footer p {
  */
 
 footer {
+    clear: both;
     background-color: #dad8d6;
     padding-top: 50px;
     padding-bottom: 50px;

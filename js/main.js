@@ -1,3 +1,5 @@
+//DELAYING THE CODE FROM EXECUTING UNTIL ALL DOM ASSETS HAVE BEEN LOADED
+
 $(document).ready(function () {
 
 });
