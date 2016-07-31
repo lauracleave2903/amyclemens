@@ -339,12 +339,10 @@ footer p {
 
 .workWrapper2 {
     transform: translateY(-100px);
-    position: relative;
-    z-index: 999;
 }
 
 .workWrapper3 {
-    transform: translateY(-120px);
+    transform: translateY(-100px);
 }
 
 
@@ -382,7 +380,7 @@ footer p {
 
 
 /*
- * WORK PAGES
+ * WORK CONTENT PAGES
  */
 
 .leftArrow {
