@@ -320,13 +320,6 @@ footer p {
 
 
 /*
-*.workWrapper3 img[src*="typography_hero"] {
-    margin-bottom: 50px;
-}
-*/
-
-
-/*
  * WORK POSITIONING
  */
 
@@ -352,8 +345,6 @@ footer p {
 
 .workWrapper3 {
     transform: translateY(-120px);
-    position: relative;
-    z-index: -999;
 }
 
 
@@ -442,6 +433,7 @@ footer p {
     margin-top: 20px;
     margin-right: 20px;
     margin-bottom: 25px;
+    background-color: #ffffff;
 }
 
 .shopWrapper img[src*="shop_hero_3"] {
