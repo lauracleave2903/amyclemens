@@ -110,15 +110,37 @@ textarea {
  * HEADER
  */
 
+header {
+    position: relative;
+    z-index: 999;
+    padding-top: 25px;
+}
+
+
+/*
+ * COVER
+ */
+
 .cover {
     background: url(../img/header_hero.png) no-repeat center top;
-    background-color: #000000;
+    background-color: #ffffff;
     height: 98%;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     z-index: -999;
+}
+
+
+/*
+ * MAIN
+ */
+
+.container {
+    width: 100%;
+    position: absolute;
+    top: 98%;
 }
 
 
