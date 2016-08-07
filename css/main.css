@@ -238,7 +238,8 @@ nav ul li a:hover {
     padding-bottom: 50px;
 }
 
-h2 {
+h2,
+h3 {
     font-family: 'Oswald', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 1.5rem;
@@ -449,6 +450,16 @@ footer p {
 /*
  * FAQ
  */
+
+#faq h2 {
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 15px;
+}
 
 #faq p {
     margin-top: 20px;
