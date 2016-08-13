@@ -717,7 +717,8 @@ html {
     footer p,
     .workWrapper1,
     .workWrapper2,
-    .workWrapper3 {
+    .workWrapper3,
+    .shopWrapper {
         max-width: 100%;
     }
     h2,
