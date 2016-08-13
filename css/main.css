@@ -726,7 +726,7 @@ html {
         display: none;
     }
     .workWrapper1_textMobile {
-        display: inline-block;
+        display: block;
     }
     .workWrapper3_text {
         padding-right: 0;
