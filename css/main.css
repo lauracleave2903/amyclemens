@@ -1106,6 +1106,11 @@ html {
  */
     .navWrapper nav ul li {
         display: block;
+        margin: 0 auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        border-top: 1px;
+        border-bottom: 1px;
     }
     /*
  * WORK CONTENT PAGES
