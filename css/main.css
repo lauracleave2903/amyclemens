@@ -715,6 +715,7 @@ html {
  */
     .navWrapper {
         max-width: 100%;
+        text-align: center;
     }
     /*
  * COVER
