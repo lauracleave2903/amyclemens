@@ -811,6 +811,15 @@ html {
 @media only screen and (max-width: 550px) {
     /* Style adjustments for viewports that meet the condition
 */
+    /*
+ * SHOP
+ */
+    .shopWrapper img[src*="shop_hero_1"],
+    .shopWrapper img[src*="shop_hero_2"],
+    .shopWrapper img[src*="shop_hero_3"] {
+        display: block;
+        margin-right: 0;
+    }
 }
 
 @media only screen and (max-width: 400px) {
