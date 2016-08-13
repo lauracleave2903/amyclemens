@@ -142,7 +142,6 @@ header {
     padding-top: 10px;
     padding-right: 25px;
     padding-bottom: 25px;
-    padding-left: 25px;
 }
 
 .logo {
@@ -156,6 +155,7 @@ header {
 
 .navWrapper {
     padding-top: 5px;
+    padding-right: 25px;
 }
 
 nav ul {
