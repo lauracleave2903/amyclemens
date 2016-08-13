@@ -790,7 +790,7 @@ html {
     /*
  * SHOP
  */
-    .shopWrapper img[src*="shop_hero_2"] {
+    .shopWrapper img[src*="shop_hero_3"] {
         margin-right: 0;
     }
 }
