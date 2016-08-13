@@ -722,7 +722,7 @@ html {
     /*
  * WORK 
  */
-    .workWrapper1_text>h2 {
+    .workWrapper1_text h2:first-child {
         display: none;
     }
     .workWrapper1_textMobile {
