@@ -790,6 +790,10 @@ html {
     /*
  * SHOP
  */
+    #shop {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
     .shopWrapper img[src*="shop_hero_3"] {
         margin-right: 0;
     }
