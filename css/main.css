@@ -722,6 +722,9 @@ html {
     /*
  * WORK 
  */
+    .workWrapper1_text {
+        padding-right: 25px;
+    }
     .workWrapper1_text h2:first-child {
         display: none;
     }
@@ -744,6 +747,15 @@ html {
     /*
  * WORK 
  */
+    .workWrapper1_text {
+        padding-right: 25px;
+    }
+    .workWrapper1_text h2:first-child {
+        display: none;
+    }
+    .workWrapper1_textMobile {
+        display: block;
+    }
     .workWrapper3_text {
         padding-right: 0;
     }
