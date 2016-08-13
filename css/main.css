@@ -850,6 +850,15 @@ html {
         margin-left: 0;
     }
     /*
+    *WORK
+    */
+    .workWrapper1_text h2:first-child {
+        display: block;
+    }
+    .workWrapper1_textMobile {
+        display: none;
+    }
+    /*
  * WORK FLOATS
  */
     .workWrapper1_img,
