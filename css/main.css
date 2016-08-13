@@ -793,10 +793,10 @@ html {
     /*
  * SHOP
  */
-    #shop img:second-child {
+    #shop .shopWrapper a img:second-child {
         margin-right: 0;
     }
-    #shop img:last-child {
+    #shop .shopWrapper a img:last-child {
         margin-top: 0;
     }
 }
