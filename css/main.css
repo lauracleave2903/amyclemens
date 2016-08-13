@@ -838,4 +838,12 @@ html {
 @media only screen and (max-width: 400px) {
     /* Style adjustments for viewports that meet the condition
 */
+    /*
+ * WORK FLOATS
+ */
+    .workWrapper1_img,
+    .workWrapper2_img,
+    .workWrapper3_img {
+        max-width: 100%;
+    }
 }
