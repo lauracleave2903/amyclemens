@@ -699,7 +699,7 @@ html {
     /* Style adjustments for viewports that meet the condition
 */
     /*
- * HEADER 
+ * GENERAL 
  */
     #header,
     .headerWrapperInside,
@@ -708,14 +708,36 @@ html {
     .container2,
     .container2 main .imgWrapper img,
     #about,
+    #work,
     #shop,
     #about p,
     #shop p,
     #faq p,
     #contact p,
-    footer p {
+    footer p,
+    .workWrapper1,
+    .workWrapper2,
+    .workWrapper3 {
         max-width: 100%;
     }
+    h2,
+    h3,
+    #about p,
+    #shop p,
+    #faq p,
+    #contact p,
+    footer p,
+    .workWrapper1,
+    .workWrapper2,
+    .workWrapper3,
+    .previousProject p,
+    .nextProject p {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    /*
+ * HEADER 
+ */
     .logo {
         float: none;
         text-align: center;
@@ -734,19 +756,36 @@ html {
         padding-top: 15px;
     }
     /*
- * ABOUT
+ * WORK FLOATS
  */
-    h2,
-    h3,
-    #about p,
-    #shop p,
-    #faq p,
-    #contact p,
-    footer p,
-    .previousProject p,
-    .nextProject p {
-        padding-right: 50px;
-        padding-left: 50px;
+    .workWrapper1_img,
+    .workWrapper1_text,
+    .workWrapper2_img,
+    .workWrapper2_text,
+    .workWrapper3_img,
+    .workWrapper3_text {
+        float: none;
+        display: block;
+    }
+    /*
+ * WORK POSITIONING
+ */
+    .workWrapper1_text {
+        padding-top: 0;
+    }
+    .workWrapper2_text {
+        padding-top: 0;
+        padding-left: 0;
+    }
+    .workWrapper3_text {
+        padding-top: 0;
+        padding-right: 0;
+    }
+    .workWrapper2 {
+        transform: translateY(0);
+    }
+    .workWrapper3 {
+        transform: translateY(0);
     }
 }
 
