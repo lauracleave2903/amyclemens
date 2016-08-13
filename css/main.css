@@ -814,10 +814,11 @@ html {
     /*
  * WORK CONTENT PAGES
  */
-    #navBottom h2 {
-        font-size: 1rem;
-        letter-spacing: 0.2rem;
-        margin-bottom: 15px;
+    .previousProject,
+    .nextProject {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
     }
     /*
  * SHOP
