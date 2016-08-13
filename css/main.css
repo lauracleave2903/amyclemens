@@ -714,13 +714,22 @@ html {
  * HEADER NAV
  */
     .navWrapper,
-    nav ul {
+    nav ul,
+    nav ul li {
         width: 100%;
+    }
+    .navWrapper,
+    nav ul {
         display: block;
     }
-    nav ul,
     nav ul li a {
         text-align: center;
+    }
+    /*
+ * COVER
+ */
+    .cover {
+        width: 100%;
     }
 }
 
