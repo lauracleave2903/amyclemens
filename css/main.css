@@ -755,7 +755,7 @@ html {
     .navWrapper {
         padding-top: 15px;
     }
-    #header .headerWrapper .headerWrapperInside .navWrapper nav ul li[first-child] {
+    .removeMargin {
         margin-left: 0;
     }
     /*
