@@ -775,7 +775,8 @@ html {
  */
     .workWrapper1_text,
     .workWrapper2_text,
-    .workWrapper3_text {
+    .workWrapper3_text,
+    .shopWrapper {
         padding-top: 50px;
         padding-right: 0;
         padding-bottom: 50px;
@@ -793,11 +794,11 @@ html {
     /*
  * SHOP
  */
-    #shop .shopWrapper a,
-    #shop img[src*="shop_hero_2"] {
+    .shopWrapper a,
+    .shopWrapper img[src*="shop_hero_2"] {
         margin-right: 0;
     }
-    #shop img[src*="shop_hero_3"] {
+    .shopWrapper img[src*="shop_hero_3"] {
         margin-top: 0;
     }
 }
