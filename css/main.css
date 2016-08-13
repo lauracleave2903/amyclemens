@@ -732,7 +732,7 @@ html {
  * BODY
  */
     .container2,
-    .container2 img {
+    .container2 main .imgWrapper img {
         width: 100%;
     }
 }
