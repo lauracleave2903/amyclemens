@@ -716,15 +716,11 @@ html {
     .navWrapper,
     nav ul {
         width: 100%;
+        display: block;
     }
     nav ul,
     nav ul li a {
         text-align: center;
-    }
-    nav ul {
-        text-align: right;
-        margin: 0;
-        padding: 0;
     }
 }
 
