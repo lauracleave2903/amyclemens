@@ -750,6 +750,12 @@ html {
     /*
  * WORK 
  */
+    .workWrapper1,
+    .workWrapper2,
+    .workWrapper3 {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
     .workWrapper3_text {
         padding-right: 0;
     }
