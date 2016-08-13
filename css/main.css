@@ -790,6 +790,15 @@ html {
     .workWrapper3 {
         transform: translateY(0);
     }
+    /*
+ * SHOP
+ */
+    #shop img:second-child {
+        margin-right: 0;
+    }
+    #shop img:last-child {
+        margin-top: 0;
+    }
 }
 
 @media only screen and (max-width: 550px) {
