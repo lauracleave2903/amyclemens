@@ -701,11 +701,14 @@ html {
     /*
  * HEADER 
  */
-    header,
+    #header,
     .headerWrapper,
     .headerWrapperInside,
     .logo {
         width: 100%;
+    }
+    .logo {
+        display: block;
     }
     /*
  * HEADER NAV
