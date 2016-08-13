@@ -719,7 +719,7 @@ html {
  * WORK 
  */
     .workWrapper1_text {
-        display: inline-block;
+        width: 100%
     }
     .workWrapper3_text {
         padding-right: 0;
