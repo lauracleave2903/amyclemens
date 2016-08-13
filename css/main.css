@@ -713,8 +713,16 @@ html {
     /*
  * HEADER NAV
  */
-    .navWrapper {
+    .navWrapper,
+    nav ul {
         max-width: 100%;
+        text-align: center;
+    }
+    .navWrapper {
+        padding-top: 15px;
+    }
+    nav ul li,
+    nav ul li a {
         text-align: center;
     }
     /*
