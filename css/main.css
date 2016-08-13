@@ -707,10 +707,10 @@ html {
 
 
 /*
- * RESPONSIVE
+ * RESPONSIVE 768
  */
 
-@media only screen and (max-width: 768px) and (max-width: 736px) and (max-width: 667px) {
+@media only screen and (max-width: 768px) {
     /* Style adjustments for viewports that meet the condition
 */
     /*
@@ -813,7 +813,228 @@ html {
     }
 }
 
-@media only screen and (max-width: 550px) {
+
+/*
+ * RESPONSIVE 736
+ */
+
+@media only screen and (max-width: 736px) {
+    /* Style adjustments for viewports that meet the condition
+*/
+    /*
+ * GENERAL 
+ */
+    #header,
+    .headerWrapperInside,
+    .navWrapper,
+    nav ul,
+    .container2,
+    .container2 main .imgWrapper img,
+    #about,
+    #work,
+    #shop,
+    #about p,
+    #shop p,
+    #faq p,
+    #contact p,
+    footer p,
+    .workWrapper1,
+    .workWrapper2,
+    .workWrapper3,
+    .shopWrapper {
+        max-width: 100%;
+    }
+    .workWrapper1,
+    .workWrapper2,
+    .workWrapper3 {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    /*
+ * HEADER 
+ */
+    .logo {
+        float: none;
+        text-align: center;
+        margin-left: 0;
+    }
+    /*
+ * HEADER NAV
+ */
+    .navWrapper,
+    nav ul,
+    nav ul li,
+    nav ul li a {
+        text-align: center;
+    }
+    .navWrapper {
+        padding-top: 15px;
+    }
+    nav ul li:first-child {
+        margin-left: 0;
+    }
+    /*
+ * WORK FLOATS
+ */
+    .workWrapper1_img,
+    .workWrapper1_text,
+    .workWrapper2_img,
+    .workWrapper2_text,
+    .workWrapper3_img,
+    .workWrapper3_text {
+        float: none;
+        display: block;
+    }
+    .workWrapper1 img[src*="black_and_white_hero"],
+    .workWrapper2 img[src*="colour_hero"],
+    .workWrapper3 img[src*="typography_hero"] {
+        max-width: 100%;
+    }
+    /*
+ * WORK POSITIONING
+ */
+    .workWrapper1_text,
+    .workWrapper2_text,
+    .workWrapper3_text {
+        padding-top: 50px;
+        padding-right: 0;
+        padding-bottom: 50px;
+        padding-left: 0;
+    }
+    .workWrapper3_text {
+        padding-bottom: 75px;
+    }
+    .workWrapper2 {
+        transform: translateY(0);
+    }
+    .workWrapper3 {
+        transform: translateY(0);
+    }
+    /*
+ * SHOP
+ */
+    .shopWrapper img[src*="shop_hero_2"] {
+        margin-right: 0;
+    }
+    .shopWrapper img[src*="shop_hero_3"] {
+        margin-top: 0;
+    }
+}
+
+
+/*
+ * RESPONSIVE 667
+ */
+
+@media only screen and (max-width: 667px) {
+    /* Style adjustments for viewports that meet the condition
+*/
+    /*
+ * GENERAL 
+ */
+    #header,
+    .headerWrapperInside,
+    .navWrapper,
+    nav ul,
+    .container2,
+    .container2 main .imgWrapper img,
+    #about,
+    #work,
+    #shop,
+    #about p,
+    #shop p,
+    #faq p,
+    #contact p,
+    footer p,
+    .workWrapper1,
+    .workWrapper2,
+    .workWrapper3,
+    .shopWrapper {
+        max-width: 100%;
+    }
+    .workWrapper1,
+    .workWrapper2,
+    .workWrapper3 {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    /*
+ * HEADER 
+ */
+    .logo {
+        float: none;
+        text-align: center;
+        margin-left: 0;
+    }
+    /*
+ * HEADER NAV
+ */
+    .navWrapper,
+    nav ul,
+    nav ul li,
+    nav ul li a {
+        text-align: center;
+    }
+    .navWrapper {
+        padding-top: 15px;
+    }
+    nav ul li:first-child {
+        margin-left: 0;
+    }
+    /*
+ * WORK FLOATS
+ */
+    .workWrapper1_img,
+    .workWrapper1_text,
+    .workWrapper2_img,
+    .workWrapper2_text,
+    .workWrapper3_img,
+    .workWrapper3_text {
+        float: none;
+        display: block;
+    }
+    .workWrapper1 img[src*="black_and_white_hero"],
+    .workWrapper2 img[src*="colour_hero"],
+    .workWrapper3 img[src*="typography_hero"] {
+        max-width: 100%;
+    }
+    /*
+ * WORK POSITIONING
+ */
+    .workWrapper1_text,
+    .workWrapper2_text,
+    .workWrapper3_text {
+        padding-top: 50px;
+        padding-right: 0;
+        padding-bottom: 50px;
+        padding-left: 0;
+    }
+    .workWrapper3_text {
+        padding-bottom: 75px;
+    }
+    .workWrapper2 {
+        transform: translateY(0);
+    }
+    .workWrapper3 {
+        transform: translateY(0);
+    }
+    /*
+ * SHOP
+ */
+    .shopWrapper img[src*="shop_hero_2"] {
+        margin-right: 0;
+    }
+    .shopWrapper img[src*="shop_hero_3"] {
+        margin-top: 0;
+    }
+}
+
+
+/*
+ * RESPONSIVE 568
+ */
+
+@media only screen and (max-width: 568px) {
     /* Style adjustments for viewports that meet the condition
 */
     /*
@@ -840,7 +1061,44 @@ html {
     }
 }
 
-@media only screen and (max-width: 400px) {
+
+/*
+ * RESPONSIVE 480
+ */
+
+@media only screen and (max-width: 480px) {
+    /* Style adjustments for viewports that meet the condition
+*/
+    /*
+ * WORK CONTENT PAGES
+ */
+    #navBottom {
+        max-width: 100%;
+    }
+    #navBottom h2 {
+        font-size: 1rem;
+        letter-spacing: 0.2rem;
+    }
+    /*
+ * SHOP
+ */
+    .shopWrapper a,
+    .shopWrapper img[src*="shop_hero_1"],
+    .shopWrapper img[src*="shop_hero_2"],
+    .shopWrapper img[src*="shop_hero_3"] {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+}
+
+
+/*
+ * RESPONSIVE 414
+ */
+
+@media only screen and (max-width: 414px) {
     /* Style adjustments for viewports that meet the condition
 */
     /*
@@ -851,7 +1109,28 @@ html {
     }
 }
 
+
+/*
+ * RESPONSIVE 375
+ */
+
 @media only screen and (max-width: 375px) {
+    /* Style adjustments for viewports that meet the condition
+*/
+    /*
+ * HEADER NAV
+ */
+    nav ul li a {
+        font-size: 0.8rem;
+    }
+}
+
+
+/*
+ * RESPONSIVE 320
+ */
+
+@media only screen and (max-width: 320px) {
     /* Style adjustments for viewports that meet the condition
 */
 }
