@@ -1117,6 +1117,10 @@ html {
         display: block;
         margin: 0 auto;
     }
+    #navBottom p,
+    #navBottom h2 {
+        text-align: center;
+    }
 }
 
 
