@@ -821,6 +821,7 @@ html {
     .shopWrapper img[src*="shop_hero_2"],
     .shopWrapper img[src*="shop_hero_3"] {
         max-width: 100%;
+        display: block;
         vertical-align: middle;
     }
 }
