@@ -721,6 +721,9 @@ html {
     .workWrapper1_text {
         padding-left: 25px;
     }
+    .workWrapper1_text h2 {
+        display: inline-block;
+    }
     .workWrapper3_text {
         padding-right: 0;
     }
