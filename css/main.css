@@ -141,11 +141,11 @@ header {
     margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 25px;
-    padding-left: 25px;
 }
 
 .logo {
     float: left;
+    margin-left: 25px;
 }
 
 
@@ -155,7 +155,6 @@ header {
 
 .navWrapper {
     padding-top: 5px;
-    padding-right: 25px;
 }
 
 nav ul {
@@ -170,7 +169,7 @@ nav ul li {
     font-size: 0.9rem;
     letter-spacing: 0.15rem;
     text-transform: uppercase;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 nav ul li a {
