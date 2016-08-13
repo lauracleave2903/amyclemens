@@ -793,9 +793,6 @@ html {
     .shopWrapper img[src*="shop_hero_2"] {
         margin-right: 0;
     }
-    .shopWrapper img[src*="shop_hero_3"] {
-        margin-top: 0;
-    }
 }
 
 
