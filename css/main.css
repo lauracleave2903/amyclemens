@@ -698,6 +698,24 @@ html {
 @media only screen and (max-width: 700px) {
     /* Style adjustments for viewports that meet the condition
 */
+    /*
+ * HEADER 
+ */
+    header,
+    .headerWrapper,
+    .headerWrapperInside,
+    .logo {
+        width: 100%;
+    }
+    /*
+ * HEADER NAV
+ */
+    .navWrapper {
+        width: 100%;
+    }
+    nav ul li a {
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 550px) {
