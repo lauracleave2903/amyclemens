@@ -718,6 +718,9 @@ html {
     /*
  * WORK 
  */
+    .workWrapper1_text h2 {
+        max-width: 100%;
+    }
     .workWrapper3_text {
         padding-right: 0;
     }
