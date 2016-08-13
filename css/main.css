@@ -855,6 +855,7 @@ html {
     }
     .navWrapper {
         padding-top: 15px;
+        padding-right: 0;
     }
     nav ul li:first-child {
         margin-left: 0;
@@ -972,6 +973,7 @@ html {
     }
     .navWrapper {
         padding-top: 15px;
+        padding-right: 0;
     }
     nav ul li:first-child {
         margin-left: 0;
@@ -1080,6 +1082,7 @@ html {
     }
     .navWrapper {
         padding-top: 15px;
+        padding-right: 0;
     }
     nav ul li:first-child {
         margin-left: 0;
