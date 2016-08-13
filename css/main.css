@@ -718,14 +718,6 @@ html {
     /*
  * WORK 
  */
-    .workWrapper1_text {
-        padding-left: 25px;
-    }
-    .workWrapper1_text h2,
-    .workWrapper1_text a img {
-        max-width: 100%;
-        display: inline;
-    }
     .workWrapper3_text {
         padding-right: 0;
     }
