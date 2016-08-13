@@ -731,6 +731,7 @@ html {
     .workWrapper1,
     .workWrapper2,
     .workWrapper3,
+    .shopWrapper,
     .previousProject p,
     .nextProject p {
         padding-right: 50px;
@@ -776,8 +777,7 @@ html {
  */
     .workWrapper1_text,
     .workWrapper2_text,
-    .workWrapper3_text,
-    .shopWrapper {
+    .workWrapper3_text {
         padding-top: 50px;
         padding-right: 0;
         padding-bottom: 50px;
