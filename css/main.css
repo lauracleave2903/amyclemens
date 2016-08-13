@@ -817,8 +817,9 @@ html {
     .shopWrapper img[src*="shop_hero_1"],
     .shopWrapper img[src*="shop_hero_2"],
     .shopWrapper img[src*="shop_hero_3"] {
-        display: block;
         margin-right: 0;
+        display: block;
+        text-align: center;
     }
 }
 
