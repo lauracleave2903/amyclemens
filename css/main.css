@@ -155,6 +155,7 @@ header {
  */
 
 .navWrapper {
+    float: right;
     display: inline-block;
     padding-top: 5px;
 }
