@@ -742,7 +742,9 @@ html {
     #shop p,
     #faq p,
     #contact p,
-    footer p {
+    footer p,
+    .previousProject p,
+    .nextProject p {
         padding-right: 50px;
         padding-left: 50px;
     }
