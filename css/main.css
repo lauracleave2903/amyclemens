@@ -1103,6 +1103,18 @@ html {
     /* Style adjustments for viewports that meet the condition
 */
     /*
+ * GENERAL 
+ */
+    #about,
+    #shop,
+    #faq,
+    #contact,
+    footer,
+    #navBottom {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    /*
  * HEADER 
  */
     .headerWrapper {
@@ -1154,10 +1166,6 @@ html {
     /*
  * CONTACT
  */
-    #contact {
-        padding-right: 25px;
-        padding-left: 25px;
-    }
     .socialMedia img {
         margin-top: 20px;
         margin-right: 10px;
@@ -1174,11 +1182,47 @@ html {
     /* Style adjustments for viewports that meet the condition
 */
     /*
+ * GENERAL 
+ */
+    #about,
+    #shop,
+    #faq,
+    #contact,
+    footer,
+    #navBottom {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    /*
+ * HEADER 
+ */
+    .headerWrapper {
+        position: relative;
+    }
+    /*
  * HEADER NAV
  */
+    .navWrapper {
+        padding-top: 0;
+    }
+    .navWrapper nav ul li {
+        display: block;
+        margin: 0 auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .navWrapperHide {
+        display: none;
+    }
+    .downArrow {
+        display: none;
+    }
     /*
  * WORK CONTENT PAGES
  */
+    .container2 {
+        padding-top: 0;
+    }
     .previousProject,
     .nextProject {
         float: none;
@@ -1194,9 +1238,17 @@ html {
         font-size: 1.5rem;
         letter-spacing: 0.3rem;
     }
-    #navBottom p,
-    #navBottom h2 {
+    #navBottom h2,
+    #navBottom p {
         text-align: center;
+    }
+    /*
+ * CONTACT
+ */
+    .socialMedia img {
+        margin-top: 20px;
+        margin-right: 10px;
+        margin-bottom: 50px;
     }
 }
 
@@ -1209,11 +1261,47 @@ html {
     /* Style adjustments for viewports that meet the condition
 */
     /*
+ * GENERAL 
+ */
+    #about,
+    #shop,
+    #faq,
+    #contact,
+    footer,
+    #navBottom {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    /*
+ * HEADER 
+ */
+    .headerWrapper {
+        position: relative;
+    }
+    /*
  * HEADER NAV
  */
+    .navWrapper {
+        padding-top: 0;
+    }
+    .navWrapper nav ul li {
+        display: block;
+        margin: 0 auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .navWrapperHide {
+        display: none;
+    }
+    .downArrow {
+        display: none;
+    }
     /*
  * WORK CONTENT PAGES
  */
+    .container2 {
+        padding-top: 0;
+    }
     .previousProject,
     .nextProject {
         float: none;
@@ -1229,8 +1317,16 @@ html {
         font-size: 1.5rem;
         letter-spacing: 0.3rem;
     }
-    #navBottom p,
-    #navBottom h2 {
+    #navBottom h2,
+    #navBottom p {
         text-align: center;
+    }
+    /*
+ * CONTACT
+ */
+    .socialMedia img {
+        margin-top: 20px;
+        margin-right: 10px;
+        margin-bottom: 50px;
     }
 }
