@@ -778,6 +778,9 @@ html {
         padding-right: 50px;
         padding-left: 50px;
     }
+    .workWrapper1_text {
+        padding-right: 0;
+    }
     .workWrapper2_text {
         padding-left: 90px;
     }
