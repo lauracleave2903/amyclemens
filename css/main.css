@@ -728,8 +728,12 @@ html {
     /*
  * COVER
  */
-    .cover {
-        max-width: 100%;
+    /*
+ * BODY
+ */
+    .container2,
+    .container2 img {
+        width: 100%;
     }
 }
 
