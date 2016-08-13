@@ -713,7 +713,8 @@ html {
     /*
  * HEADER NAV
  */
-    .navWrapper {
+    .navWrapper,
+    nav ul {
         width: 100%;
     }
     nav ul,
