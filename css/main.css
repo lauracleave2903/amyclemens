@@ -814,11 +814,13 @@ html {
     /*
  * SHOP
  */
+    .shopWrapper {
+        text-align: center;
+    }
     .shopWrapper img[src*="shop_hero_1"],
     .shopWrapper img[src*="shop_hero_2"],
     .shopWrapper img[src*="shop_hero_3"] {
         display: block;
-        margin: 0 auto;
         margin-right: 0;
     }
 }
