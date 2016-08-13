@@ -1104,6 +1104,9 @@ html {
     /*
  * HEADER NAV
  */
+    .navWrapper nav ul li {
+        display: block;
+    }
     /*
  * WORK CONTENT PAGES
  */
