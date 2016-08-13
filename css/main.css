@@ -310,6 +310,10 @@ footer p {
     padding-right: 60px;
 }
 
+.workWrapper1_textMobile {
+    display: none;
+}
+
 
 /*
  * WORK FLOATS
@@ -718,6 +722,12 @@ html {
     /*
  * WORK 
  */
+    .workWrapper1_text h2 {
+        display: none;
+    }
+    .workWrapper1_textMobile {
+        display: inline-block;
+    }
     .workWrapper3_text {
         padding-right: 0;
     }
