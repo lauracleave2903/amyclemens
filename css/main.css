@@ -718,8 +718,8 @@ html {
     /*
  * WORK 
  */
-    .workWrapper1_text h2 {
-        max-width: 100%;
+    .workWrapper1_text {
+        padding-left: 25px;
     }
     .workWrapper3_text {
         padding-right: 0;
