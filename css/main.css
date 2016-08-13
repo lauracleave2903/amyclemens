@@ -787,6 +787,15 @@ html {
     .workWrapper3_text {
         padding-right: 0;
     }
+    /*
+ * SHOP
+ */
+    .shopWrapper img[src*="shop_hero_2"] {
+        margin-right: 0;
+    }
+    .shopWrapper img[src*="shop_hero_3"] {
+        margin-top: 0;
+    }
 }
 
 
