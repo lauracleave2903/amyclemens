@@ -1107,10 +1107,6 @@ html {
     /*
  * WORK CONTENT PAGES
  */
-    #navBottom h2 {
-        font-size: 1.5rem;
-        letter-spacing: 0.3rem;
-    }
     .previousProject,
     .nextProject {
         float: none;
@@ -1118,6 +1114,13 @@ html {
         display: block;
         margin: 0 auto;
         margin-bottom: 50px;
+    }
+    .nextProject {
+        margin-bottom: 100px;
+    }
+    #navBottom h2 {
+        font-size: 1.5rem;
+        letter-spacing: 0.3rem;
     }
     #navBottom p,
     #navBottom h2 {
