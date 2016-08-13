@@ -817,10 +817,9 @@ html {
     #navBottom {
         max-width: 100%;
     }
-    .previousProject,
-    .nextProject {
-        max-width: 100%;
-        display: block;
+    #navBottom h2 {
+        font-size: 1rem;
+        letter-spacing: 0.2rem;
     }
     /*
  * SHOP
