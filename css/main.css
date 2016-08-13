@@ -1110,11 +1110,14 @@ html {
     /*
  * HEADER NAV
  */
+    .navWrapper {
+        padding-top: 0;
+    }
     .navWrapper nav ul li {
         display: block;
         margin: 0 auto;
-        margin-top: 15px;
-        margin-bottom: 15px;
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
     .downArrow {
         display: none;
@@ -1140,6 +1143,14 @@ html {
     #navBottom p,
     #navBottom h2 {
         text-align: center;
+    }
+    /*
+ * CONTACT
+ */
+    .socialMedia img {
+        margin-top: 20px;
+        margin-right: 10px;
+        margin-bottom: 50px;
     }
 }
 
