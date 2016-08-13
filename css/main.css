@@ -1117,6 +1117,7 @@ html {
         max-width: 100%;
         display: block;
         margin: 0 auto;
+        margin-bottom: 50px;
     }
     #navBottom p,
     #navBottom h2 {
