@@ -1102,15 +1102,22 @@ html {
     /* Style adjustments for viewports that meet the condition
 */
     /*
+ * HEADER 
+ */
+    .headerWrapper {
+        position: relative;
+    }
+    /*
  * HEADER NAV
  */
     .navWrapper nav ul li {
         display: block;
         margin: 0 auto;
-        margin-top: 25px;
-        margin-bottom: 25px;
-        border-top: 1px;
-        border-bottom: 1px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .downArrow {
+        display: none;
     }
     /*
  * WORK CONTENT PAGES
