@@ -755,7 +755,7 @@ html {
     .navWrapper {
         padding-top: 15px;
     }
-    .navWrapper nav ul li a span {
+    #header .headerWrapper .headerWrapperInside .navWrapper nav ul[first-child] {
         margin-left: 0;
     }
     /*
