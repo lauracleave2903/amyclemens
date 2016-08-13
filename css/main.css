@@ -756,6 +756,9 @@ html {
         padding-right: 50px;
         padding-left: 50px;
     }
+    .workWrapper2_text {
+        padding-left: 80px;
+    }
     .workWrapper3_text {
         padding-right: 0;
     }
