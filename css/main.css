@@ -741,8 +741,8 @@ html {
     #faq p,
     #contact p,
     footer p {
-        padding-right: 25px;
-        padding-left: 25px;
+        padding-right: 50px;
+        padding-left: 50px;
     }
 }
 
