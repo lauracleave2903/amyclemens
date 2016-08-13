@@ -718,6 +718,9 @@ html {
     /*
  * WORK 
  */
+    .workWrapper1_text {
+        display: inline-block;
+    }
     .workWrapper3_text {
         padding-right: 0;
     }
