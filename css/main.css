@@ -702,22 +702,19 @@ html {
  * HEADER 
  */
     #header,
-    .headerWrapper,
-    .headerWrapperInside,
-    .logo {
+    .headerWrapperInside {
         max-width: 100%;
     }
-    #header .headerWrapper .headerWrapperInside .logo {
-        display: block;
+    .logo {
+        float: none;
+        text-align: center;
         margin-left: 0;
     }
     /*
  * HEADER NAV
  */
-    #header .headerWrapper .headerWrapperInside .navWrapper {
+    .navWrapper {
         max-width: 100%;
-        display: block;
-        text-align: center;
     }
     /*
  * COVER
