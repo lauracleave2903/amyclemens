@@ -795,7 +795,6 @@ html {
     /*
  * SHOP
  */
-    .shopWrapper a,
     .shopWrapper img[src*="shop_hero_2"] {
         margin-right: 0;
     }
