@@ -705,31 +705,24 @@ html {
     .headerWrapper,
     .headerWrapperInside,
     .logo {
-        width: 100%;
+        max-width: 100%;
     }
     .logo {
         display: block;
+        margin-left: 0;
     }
     /*
  * HEADER NAV
  */
-    .navWrapper,
-    nav ul,
-    nav ul li {
-        width: 100%;
-    }
-    .navWrapper,
-    nav ul {
+    .navWrapper {
+        max-width: 100%;
         display: block;
-    }
-    nav ul li a {
-        text-align: center;
     }
     /*
  * COVER
  */
     .cover {
-        width: 100%;
+        max-width: 100%;
     }
 }
 
