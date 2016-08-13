@@ -707,16 +707,17 @@ html {
     .logo {
         max-width: 100%;
     }
-    .logo {
+    #header .headerWrapper .headerWrapperInside .logo {
         display: block;
         margin-left: 0;
     }
     /*
  * HEADER NAV
  */
-    .navWrapper {
+    #header .headerWrapper .headerWrapperInside .navWrapper {
         max-width: 100%;
         display: block;
+        text-align: center;
     }
     /*
  * COVER
