@@ -709,6 +709,22 @@ html {
 
 
 /*
+ * RESPONSIVE 900
+ */
+
+@media only screen and (max-width: 900px) {
+    /* Style adjustments for viewports that meet the condition
+*/
+    /*
+ * WORK 
+ */
+    .workWrapper3_text {
+        padding-right: 0;
+    }
+}
+
+
+/*
  * RESPONSIVE 768
  */
 
