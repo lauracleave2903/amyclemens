@@ -26,7 +26,7 @@ html {
  * REMOVE TEXT-SHADOW IN SELECTION HIGHLIGHT
  * https://twitter.com/miketaylr/status/12228805301
  *
- * TTHESE SELECTION RULE SETS HAVE TO BE SEPARATE. CUSTOMIZE THE BACKGROUND COLOR TO MATCH YOUR DESIGN
+ * THESE SELECTION RULE SETS HAVE TO BE SEPARATE. CUSTOMIZE THE BACKGROUND COLOR TO MATCH YOUR DESIGN
  */
 
 ::-moz-selection {
@@ -688,4 +688,24 @@ html {
     h3 {
         page-break-after: avoid;
     }
+}
+
+
+/*
+ * RESPONSIVE
+ */
+
+@media only screen and (max-width: 700px) {
+    /* Style adjustments for viewports that meet the condition
+*/
+}
+
+@media only screen and (max-width: 550px) {
+    /* Style adjustments for viewports that meet the condition
+*/
+}
+
+@media only screen and (max-width: 400px) {
+    /* Style adjustments for viewports that meet the condition
+*/
 }
