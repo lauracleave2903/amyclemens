@@ -755,6 +755,9 @@ html {
     .navWrapper {
         padding-top: 15px;
     }
+    .navWrapper nav ul li a[first-child] {
+        margin-left: 0;
+    }
     /*
  * WORK FLOATS
  */
