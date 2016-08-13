@@ -301,12 +301,12 @@ footer p {
 .workWrapper3 {
     max-width: 960px;
     margin: 0 auto;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .workWrapper2 {
-    padding-right: 60px;
+    padding-right: 10px;
 }
 
 
@@ -737,19 +737,9 @@ html {
     .shopWrapper {
         max-width: 100%;
     }
-    h2,
-    h3,
-    #about p,
-    #shop p,
-    #faq p,
-    #contact p,
-    footer p,
     .workWrapper1,
     .workWrapper2,
-    .workWrapper3,
-    .shopWrapper,
-    .previousProject p,
-    .nextProject p {
+    .workWrapper3 {
         padding-right: 50px;
         padding-left: 50px;
     }
