@@ -1129,6 +1129,9 @@ html {
     /*
  * WORK CONTENT PAGES
  */
+    .container2 {
+        padding-top: 50px;
+    }
     .previousProject,
     .nextProject {
         float: none;
@@ -1144,8 +1147,8 @@ html {
         font-size: 1.5rem;
         letter-spacing: 0.3rem;
     }
-    #navBottom p,
-    #navBottom h2 {
+    #navBottom h2,
+    #navBottom p {
         text-align: center;
     }
     /*
