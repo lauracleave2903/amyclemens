@@ -702,7 +702,18 @@ html {
  * HEADER 
  */
     #header,
-    .headerWrapperInside {
+    .headerWrapperInside,
+    .navWrapper,
+    nav ul,
+    .container2,
+    .container2 main .imgWrapper img,
+    #about,
+    #shop,
+    #about p,
+    #shop p,
+    #faq p,
+    #contact p,
+    footer p {
         max-width: 100%;
     }
     .logo {
@@ -714,26 +725,24 @@ html {
  * HEADER NAV
  */
     .navWrapper,
-    nav ul {
-        max-width: 100%;
+    nav ul,
+    nav ul li,
+    nav ul li a {
         text-align: center;
     }
     .navWrapper {
         padding-top: 15px;
     }
-    nav ul li,
-    nav ul li a {
-        text-align: center;
-    }
     /*
- * COVER
+ * ABOUT
  */
-    /*
- * BODY
- */
-    .container2,
-    .container2 main .imgWrapper img {
-        width: 100%;
+    #about p,
+    #shop p,
+    #faq p,
+    #contact p,
+    footer p {
+        padding-right: 25px;
+        padding-left: 25px;
     }
 }
 
