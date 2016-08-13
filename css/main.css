@@ -814,9 +814,6 @@ html {
     /*
  * SHOP
  */
-    #shop {
-        text-align: center;
-    }
     .shopWrapper a,
     .shopWrapper img[src*="shop_hero_1"],
     .shopWrapper img[src*="shop_hero_2"],
