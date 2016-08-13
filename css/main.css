@@ -1119,6 +1119,9 @@ html {
         margin-top: 25px;
         margin-bottom: 25px;
     }
+    .navWrapperHide {
+        display: none;
+    }
     .downArrow {
         display: none;
     }
@@ -1147,6 +1150,10 @@ html {
     /*
  * CONTACT
  */
+    #contact {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
     .socialMedia img {
         margin-top: 20px;
         margin-right: 10px;
