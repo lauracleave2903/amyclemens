@@ -841,9 +841,9 @@ html {
     /*
  * WORK FLOATS
  */
-    .workWrapper1_img,
-    .workWrapper2_img,
-    .workWrapper3_img {
+    .workWrapper1 img[src*="black_and_white_hero"],
+    .workWrapper2 img[src*="colour_hero"],
+    .workWrapper3 img[src*="typography_hero"] {
         max-width: 100%;
     }
 }
