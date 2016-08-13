@@ -812,6 +812,14 @@ html {
     /* Style adjustments for viewports that meet the condition
 */
     /*
+ * WORK CONTENT PAGES
+ */
+    #navBottom h2 {
+        font-size: 1rem;
+        letter-spacing: 0.2rem;
+        margin-bottom: 15px;
+    }
+    /*
  * SHOP
  */
     .shopWrapper a,
