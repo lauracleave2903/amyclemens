@@ -140,13 +140,12 @@ header {
     max-width: 960px;
     margin: 0 auto;
     padding-top: 10px;
-    padding-right: 25px;
     padding-bottom: 25px;
-    padding-left: 25px;
 }
 
 .logo {
     float: left;
+    padding-left: 25px;
 }
 
 
@@ -156,8 +155,8 @@ header {
 
 .navWrapper {
     float: right;
-    display: inline-block;
     padding-top: 5px;
+    padding-right: 25px;
 }
 
 nav ul {
