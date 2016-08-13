@@ -770,16 +770,16 @@ html {
     /*
  * WORK POSITIONING
  */
-    .workWrapper1_text {
-        padding-top: 0;
-    }
-    .workWrapper2_text {
-        padding-top: 0;
+    .workWrapper1_text,
+    .workWrapper2_text,
+    .workWrapper3_text {
+        padding-top: 50px;
+        padding-right: 0;
+        padding-bottom: 50px;
         padding-left: 0;
     }
     .workWrapper3_text {
-        padding-top: 0;
-        padding-right: 0;
+        padding-bottom: 75px;
     }
     .workWrapper2 {
         transform: translateY(0);
