@@ -821,7 +821,7 @@ html {
     .shopWrapper img[src*="shop_hero_2"],
     .shopWrapper img[src*="shop_hero_3"] {
         display: block;
-        margin-right: 0;
+        text-align: center;
     }
 }
 
