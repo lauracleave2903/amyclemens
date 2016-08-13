@@ -228,14 +228,12 @@ nav ul li a:hover {
  */
 
 .container {
-    clear: both;
     width: 100%;
     position: absolute;
     top: 98%;
 }
 
 .container2 {
-    clear: both;
     padding-top: 95px;
 }
 
