@@ -839,6 +839,12 @@ html {
     /* Style adjustments for viewports that meet the condition
 */
     /*
+ * HEADER NAV
+ */
+    nav ul li a {
+        font-size: 0.8rem;
+    }
+    /*
  * WORK FLOATS
  */
     .workWrapper1 img[src*="black_and_white_hero"],
